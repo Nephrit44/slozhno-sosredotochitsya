@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/globals.css" />
+    <link rel="stylesheet" href="./styles/variables.css">
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <title>Сложно сосредоточиться</title>
@@ -39,7 +40,7 @@
         </ul>
       </nav>
 
-      <h1 class="header__title">no focus</h1>
+      <h1 class="big-title">no focus</h1>
 
       <p class="accent__subtext">
         Что делать, когда не можешь делать ничего
@@ -48,7 +49,7 @@
       </p>
     </header>
 
-    <section class="concentration container">
+    <section class="concetration container">
       <h2 class="section-title">Почему сосредоточиться так сложно</h2>
 
       <div class="card">
@@ -85,7 +86,7 @@
       </div>
     </section>
 
-    <section class="concentration container">
+    <section class="food container">
       <h2 class="section-title">Что снижает концентрацию внимания?</h2>
 
       <div class="card">
@@ -126,13 +127,13 @@
       </div>
     </section>
 
-    <section class="concentration-btter container">
+    <section class="recommendations container">
       <h2 class="section-title">
         Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх
         секунд)
       </h2>
 
-      <p class="accent__subtext">5 простых (на самом деле не очень) советов</p>
+      <p class="seсtion-subtext">5 простых (на самом деле не очень) советов</p>
 
       <div class="card">
         <p class="card__title">Представьте небо и облака</p>
@@ -190,6 +191,57 @@
         </p>
       </div>
     </section>
+
+    <section class="container image">
+      <p class="image__title">А можно в картинках?</p>
+
+      <div class="image__collection">
+        <img
+          class="image__item"
+          loading="lazy"
+          class="content__picture"
+          srcset="./images/sunset.png"
+          alt="Закат в горях"
+        />
+
+        <img
+          class="image__item"
+          loading="lazy"
+          class="content__picture"
+          srcset="./images/ice-cream.png"
+          alt="Тарелка с мороженным"
+        />
+
+        <img
+          class="image__item"
+          loading="lazy"
+          class="content__picture"
+          srcset="./images/tape.png"
+          alt="Кассета и декоративные компьютерные элементы"
+        />
+
+        <img
+          class="image__item"
+          loading="lazy"
+          class="content__picture"
+          srcset="./images/books.png"
+          alt="Стопка книг и сверху на них стоит кружка кофе."
+        />
+
+        <img
+          class="image__item"
+          loading="lazy"
+          class="content__picture"
+          srcset="./images/street.png"
+          alt="Нарисованная городская улица Японии"
+        />
+      </div>
+    </section>
+
+    <footer class="footer decorated-zone container">
+      <p class="big-title">focus</p>
+    </footer>
+
     <script src="./scripts/script.js"></script>
   </body>
 </html>
