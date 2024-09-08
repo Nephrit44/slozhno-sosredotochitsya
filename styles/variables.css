@@ -3,18 +3,15 @@
   и их переопределение под различные устройства
 */
 :root {
-  --accents-color: #FF0070;
-  --main-background-color: #000028;
+  --accent-light-color: #FF0070;
+  --accent-dark-color: #000028;
 
-  --font-color: #F1B2CE;
-  --accent-font-color: #000028;
-  --title-font-color: #DB00FF;
-
+  /*============================================================*/
   --main-font-family: 'IBM Plex mono';
   --fz18px: 1.125rem;
   --fz116px: 7.25rem;
   --fz120px: 7.50rem;
   --fz157px: 9.81rem;
 
-  --trasition-duration: .3s;
+  --transition-duration: .3s;
 }
