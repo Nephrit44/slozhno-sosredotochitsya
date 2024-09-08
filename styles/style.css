@@ -296,6 +296,7 @@
 
   .decorated-zone::after {
     inset-inline-start: 20px;
+    inset-block-end: 20px;
   }
 
   .header__decorated-rec-element {
@@ -424,10 +425,6 @@
 
   .footer .big-title {
     margin-inline-start: 0;
-  }
-
-  .decorated-zone::after {
-    inset-block-end: 20px;
   }
 }
 
