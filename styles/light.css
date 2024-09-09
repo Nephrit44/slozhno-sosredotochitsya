@@ -16,6 +16,7 @@
   --nav-color: #353430;
   --decor-color: #353430;
   --decor-bg-color: #FFF1F7;
+  --decor-border-color: #353430;
 
   --title-font-color: #FFC2E6;
   --title-shadow-color: #FF8DCB;
@@ -29,8 +30,9 @@
   --paragraph-font-color: #353430;
 
   --text-shadow: #FF8DCB;
-
-  --button-hover-color: rgba(255, 0, 112, 0.40);
+  
+  --button-hover-color: rgba(255, 0, 112, 40%);
+  --button-hover-font-color: #FF0070;
 
   --bg-image: url("../images/cover-image-light.png");
 }
@@ -45,7 +47,8 @@
     --nav-color: #353430;
     --decor-color: #353430;
     --decor-bg-color: #FFF1F7;
-  
+    --decor-border-color: #353430;
+    
     --title-font-color: #FFC2E6;
     --title-shadow-color: #FF8DCB;
   
@@ -59,7 +62,8 @@
   
     --text-shadow: #FF8DCB;
   
-    --button-hover-color: rgba(255, 0, 112, 0.40);
+    --button-hover-color: rgba(255, 0, 112, 40%);
+    --button-hover-font-color: #FF0070;
 
     --bg-image: url("../images/cover-image-light.png");
   }

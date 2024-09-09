@@ -16,6 +16,7 @@
   --nav-color: #FF0070;
   --decor-color: #FF0070;
   --decor-bg-color: #FF0070;
+  --decor-border-color: #FF0070;
 
   --title-font-color: #DB00FF;
   --title-shadow-color: #FF0070;
@@ -31,6 +32,7 @@
   --text-shadow: #FF0070;
 
   --button-hover-color: rgba(50, 49, 45, 0.40);
+  --button-hover-font-color: #353430;
 
   --bg-image: url("../images/cover-image-dark.png");
 }
@@ -44,6 +46,7 @@
     --nav-color: #FF0070;
     --decor-color: #FF0070;
     --decor-bg-color: #FF0070;
+    --decor-border-color: #FF0070;
   
     --title-font-color: #DB00FF;
     --title-shadow-color: #FF0070;
@@ -59,6 +62,7 @@
     --text-shadow: #FF0070;
 
     --button-hover-color: rgba(50, 49, 45, 0.40);
+    --button-hover-font-color: #353430;
 
     --bg-image: url("../images/cover-image-dark.png");
   }
