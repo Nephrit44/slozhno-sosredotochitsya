@@ -70,12 +70,12 @@
 .header__theme-menu-button {
   border: 1px solid transparent;
   padding-inline: 13px;
+  outline: none;
   color: var(--nav-color,  #FF0070);
   text-align: center;
   text-transform: lowercase;
   background-color: transparent;
   transition: border var(--transition-duration);
-  outline: none;
 }
 
 .header__theme-menu-button:hover {
@@ -92,8 +92,8 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  color: var(--button-hover-font-color, #FF0070);
   border-block-end: 1px solid var(--button-hover-font-color, #FF0070);
+  color: var(--button-hover-font-color, #FF0070);
 }
 
 /*=============================================MAIN==============================================*/
@@ -114,8 +114,8 @@
 }
 
 .accent__subtext {
-  align-self: center;
   justify-self: end;
+  align-self: center;
   color: var(--subtitle-font-color, #000028);
   font-weight: 700;
   font-size: var(--fz18px);
@@ -288,11 +288,6 @@
   }
 
   /*Header*/
-  .header__theme-menu {
-    justify-self: center;
-    align-self: start;
-  }
-
   .decorated-zone::before {
     inset-block-start: 20px;
     inset-inline-end: 20px;
@@ -420,6 +415,11 @@
 /*==========================================================================*/
 /*==========================================================================*/
 @media (width >= 1024px) {
+  .header__theme-menu {
+    justify-self: center;
+    align-self: start;
+  }
+
   .concetration {
     padding-block-start: 60px;
   }
