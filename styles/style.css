@@ -432,7 +432,7 @@
     flex-direction: row;
   }
 
-  .card__item {
+  .card li {
     flex: 1;
   }
 
