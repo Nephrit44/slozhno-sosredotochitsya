@@ -31,8 +31,8 @@
 
   --text-shadow: #FF0070;
 
-  --button-hover-color: rgba(50, 49, 45, 0.40);
-  --button-hover-font-color: #353430;
+  --button-hover-color: rgba(255, 0, 112, 0.40);
+  --button-hover-font-color: #FF0070;
 
   --bg-image: url("../images/cover-image-dark.png");
 }
@@ -61,8 +61,8 @@
   
     --text-shadow: #FF0070;
 
-    --button-hover-color: rgba(50, 49, 45, 0.40);
-    --button-hover-font-color: #353430;
+    --button-hover-color: rgba(255, 0, 112, 0.40);
+    --button-hover-font-color: #FF0070;
 
     --bg-image: url("../images/cover-image-dark.png");
   }
